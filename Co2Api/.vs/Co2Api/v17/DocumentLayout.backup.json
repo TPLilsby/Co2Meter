@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|c:\\users\\zbctoli\\documents\\github\\co2meter\\co2api\\co2api\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|solutionrelative:co2api\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|c:\\users\\zbctoli\\documents\\github\\co2meter\\co2api\\co2api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|solutionrelative:co2api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|c:\\users\\zbctoli\\documents\\github\\co2meter\\co2api\\co2api\\co2api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|solutionrelative:co2api\\co2api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|c:\\users\\zbctoli\\documents\\github\\co2meter\\co2api\\co2api\\controllers\\co2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|solutionrelative:co2api\\controllers\\co2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|c:\\users\\zbctoli\\documents\\github\\co2meter\\co2api\\co2api\\models\\co2data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|solutionrelative:co2api\\models\\co2data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|c:\\users\\zbctoli\\documents\\github\\co2meter\\co2api\\co2api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|solutionrelative:co2api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|c:\\users\\zbctoli\\documents\\github\\co2meter\\co2api\\co2api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|solutionrelative:co2api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|c:\\users\\zbctoli\\documents\\github\\co2meter\\co2api\\co2api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{597942D1-7694-483D-8B98-DB197E9A9344}|Co2Api\\Co2Api.csproj|solutionrelative:co2api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Models\\Co2Reading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Co2Api\\Models\\Co2Reading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\.dockerignore",
+              "RelativeDocumentMoniker": "Co2Api\\.dockerignore",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\.dockerignore",
+              "RelativeToolTip": "Co2Api\\.dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T07:33:38.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1894142962:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Dockerfile",
+              "RelativeDocumentMoniker": "Co2Api\\Dockerfile",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Dockerfile",
+              "RelativeToolTip": "Co2Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T07:31:20.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Co2Api.csproj",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Co2Api.csproj",
+              "RelativeDocumentMoniker": "Co2Api\\Co2Api.csproj",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Co2Api.csproj",
+              "RelativeToolTip": "Co2Api\\Co2Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T09:58:56.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Co2Data.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Models\\Co2Data.cs",
+              "RelativeDocumentMoniker": "Co2Api\\Models\\Co2Data.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Models\\Co2Data.cs*",
+              "RelativeToolTip": "Co2Api\\Models\\Co2Data.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:25:18.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Co2Controller.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Controllers\\Co2Controller.cs",
+              "RelativeDocumentMoniker": "Co2Api\\Controllers\\Co2Controller.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Controllers\\Co2Controller.cs",
+              "RelativeToolTip": "Co2Api\\Controllers\\Co2Controller.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:52:09.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Program.cs",
+              "RelativeDocumentMoniker": "Co2Api\\Program.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Program.cs*",
+              "RelativeToolTip": "Co2Api\\Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:10:00.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Co2Reading.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Models\\Co2Reading.cs",
+              "RelativeDocumentMoniker": "Co2Api\\Models\\Co2Reading.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Models\\Co2Reading.cs",
+              "RelativeToolTip": "Co2Api\\Models\\Co2Reading.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T09:42:39.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Co2Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\appsettings.json",
+              "RelativeToolTip": "Co2Api\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T11:08:56.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Co2Api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\Co2Meter\\Co2Api\\Co2Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Co2Api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:04:34.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

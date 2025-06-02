@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: co2-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Kode1234!
+      POSTGRES_DB: Co2Database
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - co2net
+
+  co2api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: co2api
+    restart: always
+    ports:
+      - "5000:8080" # host:container
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - co2net
+
+volumes:
+  pgdata:
+
+networks:
+  co2net:
