@@ -1,10 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using Co2Api.Data;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+    });
 
 // Configure PostgreSQL
 var connectionString = "Host=db;Database=co2meter;Username=postgres;Password=Kode1234!";
@@ -48,7 +54,7 @@ for (int i = 0; i < maxRetries; i++)
         if (i == maxRetries - 1)
             throw;
             
-        Console.WriteLine($"Database connection attempt {i + 1} failed. Retrying in {retryDelaySeconds} seconds...");
+        Console.WriteLine($"Database connection attempt {i + 1} failed: {ex.Message}. Retrying in {retryDelaySeconds} seconds...");
         Thread.Sleep(retryDelaySeconds * 1000);
     }
 }

@@ -11,4 +11,5 @@ public class Co2DbContext : DbContext
     }
 
     public DbSet<Co2Reading> Co2Readings { get; set; }
+    public DbSet<Room> Rooms { get; set; }
 } 
