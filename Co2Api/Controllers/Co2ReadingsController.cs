@@ -82,7 +82,7 @@ public class Co2ReadingsController : ControllerBase
             .FirstOrDefaultAsync(r => r.Id == id);
 
         if (reading == null)
-        {
+    {
             return NotFound();
         }
 
@@ -141,8 +141,8 @@ public class Co2ReadingsController : ControllerBase
                 RoomId = readingDto.RoomId
             };
 
-            _context.Co2Readings.Add(reading);
-            await _context.SaveChangesAsync();
+        _context.Co2Readings.Add(reading);
+        await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetCo2Reading), new { id = reading.Id }, reading);
         }

@@ -1,24 +1,34 @@
 version: '3.8'
 
 services:
-  api:
+  co2api:
     build:
       context: ./Co2Api
       dockerfile: Dockerfile
     ports:
       - "5000:80"
-    depends_on:
-      - db
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Host=db;Database=co2db;Username=postgres;Password=postgres;Trust Server Certificate=true
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - co2api
 
   db:
-    image: postgres:latest
+    image: postgres:17
     environment:
+      - POSTGRES_DB=co2db
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=Kode1234!
-      - POSTGRES_DB=co2meter
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_HOST_AUTH_METHOD=trust
     ports:
       - "5432:5432"
     volumes:

@@ -1,0 +1,263 @@
+.co2-readings {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.add-button:hover {
+  background-color: #1565c0;
+  transform: translateY(-1px);
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-group label {
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.filter-group select,
+.filter-group input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  color: #1a1a1a;
+}
+
+.table-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  color: #1a1a1a;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+tr:hover {
+  background-color: #f8f9fa;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pagination select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  color: #1a1a1a;
+}
+
+.page-info {
+  color: #666;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background-color: white;
+  color: #1a1a1a;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination button:not(:disabled):hover {
+  background-color: #f8f9fa;
+  border-color: #1976d2;
+  color: #1976d2;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.form-group select,
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  color: #1a1a1a;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.modal-actions button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.modal-actions button:not(.primary) {
+  background-color: white;
+  border: 1px solid #ddd;
+  color: #1a1a1a;
+}
+
+.modal-actions button.primary {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+}
+
+.modal-actions button.primary:hover {
+  background-color: #1565c0;
+  transform: translateY(-1px);
+}
+
+@media (prefers-color-scheme: dark) {
+  .filters,
+  .table-container,
+  .pagination,
+  .modal-content {
+    background: #1a1a1a;
+  }
+
+  .filter-group label,
+  .form-group label,
+  .modal-content h3,
+  th, td {
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .filter-group select,
+  .filter-group input,
+  .form-group select,
+  .form-group input,
+  .pagination select {
+    background: #2d2d2d;
+    border-color: #404040;
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  th {
+    background-color: #2d2d2d;
+  }
+
+  tr:hover {
+    background-color: #2d2d2d;
+  }
+
+  .pagination button:not(.primary) {
+    background-color: #2d2d2d;
+    border-color: #404040;
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .pagination button:not(:disabled):hover {
+    background-color: #404040;
+    border-color: #1976d2;
+    color: #1976d2;
+  }
+
+  .modal-actions button:not(.primary) {
+    background-color: #2d2d2d;
+    border-color: #404040;
+    color: rgba(255, 255, 255, 0.87);
+  }
+} 

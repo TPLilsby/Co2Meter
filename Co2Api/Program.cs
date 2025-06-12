@@ -12,6 +12,17 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
     });
 
+// Add CORS
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 // Configure PostgreSQL
 var connectionString = "Host=db;Database=co2meter;Username=postgres;Password=Kode1234!";
 builder.Services.AddDbContext<Co2DbContext>(options =>
@@ -29,6 +40,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Use CORS
+app.UseCors();
 
 app.UseAuthorization();
 
@@ -58,5 +72,8 @@ for (int i = 0; i < maxRetries; i++)
         Thread.Sleep(retryDelaySeconds * 1000);
     }
 }
+
+// Configure the URLs
+builder.WebHost.UseUrls("http://+:80");
 
 app.Run();
